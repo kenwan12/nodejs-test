@@ -5,6 +5,7 @@
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
+    "test": "scripts/test"
     "start": "node server.js"
   },
   "dependencies": {
