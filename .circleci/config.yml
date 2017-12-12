@@ -35,8 +35,4 @@ jobs:
         
       # run tests!
       - run:
-          command: |
-             echo Running npm info
-             id && pwd && ls -alRt
-             npm info
-
+          command: /bin/date
