@@ -34,6 +34,10 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
   test:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:7.10
+
     steps:
       # run tests!
       #=- run:
