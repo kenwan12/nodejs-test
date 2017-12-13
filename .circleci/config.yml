@@ -46,3 +46,11 @@ jobs:
       #=-         /bin/date && id && pwd && ls -altR
       #=-         npm info
       - run: yarn test
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
+
